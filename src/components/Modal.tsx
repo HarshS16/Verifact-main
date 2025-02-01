@@ -4,7 +4,7 @@ import { FC } from 'react';
 interface SignupLoginModalProps {
   isOpen: boolean;
   onClose: () => void;
-  e: string;
+  e: any;
 }
 const SignupLoginModal: FC<SignupLoginModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
