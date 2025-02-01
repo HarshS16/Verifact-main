@@ -5,9 +5,8 @@ interface SignupLoginModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
-const SignupLoginModal = ({ isOpen, onClose }) => {
-  if (!isOpen) return null; // Don't render the modal if it's not open
-
+const SignupLoginModal: FC<SignupLoginModalProps> = ({ isOpen, onClose }) => {
+  if (!isOpen) return null;
   // State for form fields and error messages
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
