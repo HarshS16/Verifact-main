@@ -1,6 +1,10 @@
-
 import { useState } from 'react';
+import { FC } from 'react';
 
+interface SignupLoginModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
 const SignupLoginModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null; // Don't render the modal if it's not open
 
