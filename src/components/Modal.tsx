@@ -1,23 +1,3 @@
-import { FC } from 'react';
-
-interface SignupLoginModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-}
-
-const SignupLoginModal: FC<SignupLoginModalProps> = ({ isOpen, onClose }) => {
-  if (!isOpen) return null; // Don't render the modal if it's not open
-
-  return (
-    <div>
-      <h2>Signup/Login Modal</h2>
-      <button onClick={onClose}>Close</button>
-    </div>
-  );
-};
-
-export default SignupLoginModal;
-
 
 import { useState } from 'react';
 
