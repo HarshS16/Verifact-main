@@ -12,16 +12,16 @@ export const Hero = () => {
       <div className="container relative">
         <div className="flex items-center justify-center">
           <a href="#" className="inline-flex gap-3 border py-1 px-2 rounded-lg border-white/30">
-            <span className="bg-[linear-gradient(to_right,#F87AFF,#FB93D0,#FFDD99,#C3F0B2,#2FD8FE)] text-transparent bg-clip-text [-webkit-background-clip:text]">Version 1.0 is here</span>
+            {/* <span className="bg-[linear-gradient(to_right,#F87AFF,#FB93D0,#FFDD99,#C3F0B2,#2FD8FE)] text-transparent bg-clip-text [-webkit-background-clip:text]">Version 1.0 is here</span> */}
             <span className='inline-flex items-center gap-1'>
-              <span className='hover:text-purple-300 transition'>Read More</span>
-              <ArrowWIcon />
+              {/* <span className='hover:text-purple-300 transition'>Read More</span> */}
+              {/* <ArrowWIcon /> */}
             </span>
           </a>
         </div>
         <div className='flex justify-center mt-8'>
           <div className='inline-flex relative'>
-            <h1 className='text-6xl sm:text-8xl font-bold tracking-tighter text-center inline-flex'>Your Trusted <br />  Fake News Detector</h1>
+            <h1 className='text-6xl sm:text-8xl font-bold tracking-tighter text-center inline-flex'>Your Trusted <br /> Career Counselor</h1>
             <motion.div className='absolute right-[830px] top-[135px] hidden sm:inline' drag >
               <Image src={cursorImage} height="200" width="200" alt='' className='max-w-none' draggable='false'/>
             </motion.div>
@@ -31,10 +31,10 @@ export const Hero = () => {
           </div>
         </div>
         <div className='flex justify-center'>
-          <p className='text-center text-xl mt-8 max-w-md'>"Analyze, Verify, and Uncover the Facts Instantly with Advanced AI Detection"</p>
+          <p className='text-center text-xl mt-8 max-w-md'>"Your Destiny Isn't Written — It's Engineered"</p>
         </div>
         <div className='flex justify-center mt-8'>
-          <a href="https://verifact.streamlit.app/"><button className='bg-white text-black py-3 px-5 rounded-lg font-medium hover:bg-gray-200 transition'>Check News</button></a>
+          <a href="https://verifact.streamlit.app/"><button className='bg-white text-black py-3 px-5 rounded-lg font-medium hover:bg-gray-200 transition'>Find Your ideal Career</button></a>
           
         </div>
       </div>

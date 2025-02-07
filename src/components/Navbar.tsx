@@ -23,7 +23,7 @@ export const Navbar = () => {
           <div className='relative flex items-center gap-3'>
             <div className='absolute w-14 top-1 bottom-0 bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] blur-md'></div>
             <Image src={logoImage} alt='Logo' className='h-10 w-10 relative sm:h-14 sm:w-14' />
-            <span className='text-white font-bold text-3xl sm:text-5xl hidden sm:block'>VeriFact</span>
+            <span className='text-white font-bold text-3xl sm:text-5xl hidden sm:block'>DestinAI</span>
           </div>
           <div className='border border-white border-opacity-30 h-10 w-10 inline-flex justify-center items-center rounded-lg sm:hidden'>
             <MenuIcon className="text-white" />
